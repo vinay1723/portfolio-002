@@ -57,7 +57,7 @@ function Header() {
               />
             </svg>
 
-            <Link className="" to="/">
+            <Link className="" to="/portfolio">
               HOME
             </Link>
           </li>
@@ -77,7 +77,7 @@ function Header() {
               />
             </svg>
 
-            <Link to="/aboutme">ABOUT ME</Link>
+            <Link to="/portfolio/aboutme">ABOUT ME</Link>
           </li>
           <li className="flex items-center gap-2 rounded-full p-2  focus:bg-cyan-500 hover:bg-cyan-500 hover:text-white text-lg">
             <svg
@@ -95,7 +95,7 @@ function Header() {
               />
             </svg>
 
-            <Link to="/projects">PROJECTS</Link>
+            <Link to="/portfolio/projects">PROJECTS</Link>
           </li>
           <li className="flex items-center gap-2 rounded-full px-2 focus:ring focus:ring-white hover:bg-cyan-500 hover:text-white text-lg">
             <svg
@@ -113,7 +113,7 @@ function Header() {
               />
             </svg>
 
-            <Link to="/contact">CONTACT</Link>
+            <Link to="/portfolio/contact">CONTACT</Link>
           </li>
         </ul>
       </div>

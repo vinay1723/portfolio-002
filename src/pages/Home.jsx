@@ -40,7 +40,7 @@ function Home() {
         Node.js
       </p>
       <Link
-        to="/projects"
+        to="/portfolio/projects"
         className={`mt-8 px-6 py-3 bg-blue-600 text-white rounded-md text-lg hover:bg-blue-700 transition-all ease-out duration-1000 ${
           isVisible
             ? "translate-x-0 opacity-100"

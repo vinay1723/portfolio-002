@@ -9,22 +9,22 @@ function Navigation({ active, setActive }) {
       }`}
     >
       <div className=" w-[217px] h-[35px] mt-[100px] lg:mt-[200px] flex justify-left content-center gap-3 rounded-md text-white font-medium text-[18px] hover:bg-black py-1 ">
-        <Link to="/" className="text-center ml-3 mb-1" onClick={setActive}>
+        <Link to="/portfolio" className="text-center ml-3 mb-1" onClick={setActive}>
           Home
         </Link>
       </div>
       <div className=" w-[217px] h-[35px] flex justify-left content-center gap-3 rounded-md mt-1 text-white font-medium text-[16px] hover:bg-black py-1 ml-[4px]">
-        <Link to="/contact" className="text-center ml-3" onClick={setActive}>
+        <Link to="/portfolio/contact" className="text-center ml-3" onClick={setActive}>
           Contacts me
         </Link>
       </div>
       <div className=" w-[217px] h-[35px] flex justify-left content-center gap-3 rounded-md mt-2 text-white font-medium text-[16px] hover:bg-black py-1 ml-[4px]">
-        <Link to="/aboutme" className="text-center ml-3" onClick={setActive}>
+        <Link to="/portfolio/aboutme" className="text-center ml-3" onClick={setActive}>
           About me
         </Link>
       </div>
       <div className=" w-[217px] h-[35px] flex justify-left content-center gap-3 rounded-md mt-2 text-white font-medium text-[16px] hover:bg-black py-1 ml-[4px]">
-        <Link to="/projects" className="text-center ml-3" onClick={setActive}>
+        <Link to="/portfolio/projects" className="text-center ml-3" onClick={setActive}>
           Project
         </Link>
       </div>
